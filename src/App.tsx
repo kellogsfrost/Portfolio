@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import cat from './cat.svg';
 import './App.css';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      <img className="App-logo" src={cat}/>
+      <div className="SideBar">
+        <p>This is the SideBar</p>
+      </div>
+      <div className="Land">
+      <p>This is the Landing</p>
+      </div>
+      <div className="AboutMe">
+      <p>This is the About Me</p>
+      </div>
+      <div className="Projects">
+      <p>This is the Project Page</p>
+      </div>
+
     </div>
   );
 }
