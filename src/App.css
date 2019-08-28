@@ -1,11 +1,21 @@
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "SideBar Land"
+  "SideBar Land"
+  "SideBar Land"
+  "AboutMe AboutMe"
+  "Projects Projects"
+  "App-logo App-logo"
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 .App-header {
@@ -30,4 +40,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.SideBar{
+  border: black solid 1px;
+}
+.Land{
+  border: black solid 1px;
+}
+.AboutMe{
+  border: black solid 1px;
+}
+.Projects{
+ border: black solid 1px;
 }
