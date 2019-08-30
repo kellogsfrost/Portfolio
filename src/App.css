@@ -1,37 +1,33 @@
-.App {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  grid-template-areas: 
-  "SideBar Land"
-  "SideBar Land"
-  "SideBar Land"
-  "AboutMe AboutMe"
-  "AboutMe AboutMe"
-  "Projects Projects"
-  "Projects Projects";
-}
+
 
 .SideBar{
-  border: none;
-  height: 100vh;
-  width: 25vw;
-  display: inline-grid;
-  grid-area: SideBar;
-  background-color: rgba(0, 0, 0, 0.904);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 2;
+  width: 25%;
+  font-size: 14px;
+  color: #fff;
   text-align: center;
-  color: azure;
+  background-color: rgba(19, 66, 75, 0.8);
 }
 .Land{
-  border: black solid 1px;
-  height: 100vh;
-  width: 75vw;
-  display: inline-grid;
-  grid-area: Land;
-  background-image: url(Kerry.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: url(Kerry.jpg) top center no-repeat #bababa;
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    padding-left: 110px;
+    padding-top: 130px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+    font-size: 12px;
 }
 .AboutMe{
   display: inline-grid;
@@ -52,19 +48,31 @@
   background-image: url(./meclose.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  opacity: 0.7;
   margin: 0 auto;
   background-size: cover;
 }
 .Svg{
-  display: inline;
   height: 80px;
   width: 80px;
+  
 }
-.Info{
+.HomeHeading{
+  font-size: 4em;
+  font-weight: 500;
+  box-sizing: inherit;
+  display: block;
+}
+.InnerLanding{
+  max-width: 840px;
+  margin-left: 30%;
+}
+.Name{
   margin: 0 auto;
 }
 .ProjectImg{
   border: black solid 2px;
   display: inline;
+}
+.Description{
+  margin: 0 auto;
 }

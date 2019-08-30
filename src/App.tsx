@@ -11,22 +11,29 @@ const App: React.FC = () => {
       <div className="SideBar">
         <div className="SideImage">
         </div>
-        <p className="Info">Hayden Schultz</p>
+        <h1 className="Name">Hayden Schultz</h1>
+        <h2 className="Description">Full-Stack Web Devloper</h2>
+        <p>About Me</p>
+        <p>Projects</p>
+        
           <img className="Svg" src={linkdin} alt=""/>
-          <img className="Svg" src={file} alt=""/>
           <img className="Svg" src={github} alt=""/>
           <img className="Svg" src={envelope} alt=""/>
+          <img className="Svg" src={file} alt=""/>
       </div>
       <div className="Land">
+        <div className="InnerLanding">
+          <div className="HomeHeading">Hi, I'm Hayden,</div>
+        </div>
       </div>
       <div className="AboutMe">
         This is the About Me
       </div>
       <div className="Projects">
+       {/* <img src="https://www.placecage.com/400/600" className="ProjectImg"/>
        <img src="https://www.placecage.com/400/600" className="ProjectImg"/>
        <img src="https://www.placecage.com/400/600" className="ProjectImg"/>
-       <img src="https://www.placecage.com/400/600" className="ProjectImg"/>
-       <img src="https://www.placecage.com/400/600" className="ProjectImg"/>
+       <img src="https://www.placecage.com/400/600" className="ProjectImg"/> */}
       </div>
     </div>
   );
