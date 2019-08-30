@@ -15,7 +15,6 @@ const App: React.FC = () => {
         <h2 className="Description">Full-Stack Web Devloper</h2>
         <p>About Me</p>
         <p>Projects</p>
-        
           <img className="Svg" src={linkdin} alt=""/>
           <img className="Svg" src={github} alt=""/>
           <img className="Svg" src={envelope} alt=""/>
@@ -24,6 +23,12 @@ const App: React.FC = () => {
       <div className="Land">
         <div className="InnerLanding">
           <div className="HomeHeading">Hi, I'm Hayden,</div>
+          <div className="SubHeading">
+            <h2>a freelance web developer specialized in
+              <br></br>
+            <strong>front-end and back-endweb development.</strong>
+            </h2>
+          </div>
         </div>
       </div>
       <div className="AboutMe">

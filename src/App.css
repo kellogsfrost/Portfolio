@@ -64,7 +64,14 @@
 }
 .InnerLanding{
   max-width: 840px;
-  margin-left: 30%;
+  margin-left: 35%;
+}
+.SubHeading{
+  font-size: 3em;
+  font-weight: 300;
+  text-transform: none;
+  margin: 0;
+  box-sizing: inherit;
 }
 .Name{
   margin: 0 auto;
@@ -75,4 +82,7 @@
 }
 .Description{
   margin: 0 auto;
+}
+h2{
+  margin: none;
 }
