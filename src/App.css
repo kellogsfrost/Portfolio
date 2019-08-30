@@ -13,43 +13,58 @@
 }
 
 .SideBar{
-  border: black solid 1px;
+  border: none;
   height: 100vh;
-  width: 30vw;
+  width: 25vw;
   display: inline-grid;
   grid-area: SideBar;
+  background-color: rgba(0, 0, 0, 0.904);
+  text-align: center;
+  color: azure;
 }
 .Land{
   border: black solid 1px;
   height: 100vh;
-  width: 70vw;
+  width: 75vw;
   display: inline-grid;
   grid-area: Land;
-  background-image: url(seattle.jpg);
+  background-image: url(Kerry.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .AboutMe{
-  border: black solid 1px;
   display: inline-grid;
   height: 100vh;
   grid-area: AboutMe;
 }
 .Projects{
- border: black solid 1px;
  display: inline-grid;
  height: 100vh;
  grid-area: Projects;
 }
 .SideImage{
-  border: black solid 2px;
+  border: rgba(0, 0, 0, 0) solid 2px;
   grid-area: "SideImage";
-  height: 260px;
-  width: 240px;
+  height: 230px;
+  width: 225px;
   border-radius: 50%;
   background-image: url(./meclose.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  
+  opacity: 0.7;
+  margin: 0 auto;
+  background-size: cover;
+}
+.Svg{
+  display: inline;
+  height: 80px;
+  width: 80px;
+}
+.Info{
+  margin: 0 auto;
+}
+.ProjectImg{
+  border: black solid 2px;
+  display: inline;
 }
