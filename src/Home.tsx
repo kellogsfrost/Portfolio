@@ -21,11 +21,13 @@ const Home: React.FC = () => {
         <h1 className="Name">Hayden Schultz</h1>
         <h2 className="Description">Full-Stack Web Devloper</h2>
         <Link to={'/About'}>
-          <p>About Me</p>
+          <p className="sideText">Skills</p>
         </Link>
         <Link to={'/Project'}>
-          <p>Projects</p>
+          <p className="sideText">Projects</p>
         </Link>
+        <br></br>
+        <h2 className="connect">Let's Connect:</h2>
         <a href="https://www.linkedin.com/in/hayden-schultz/" target="blank">
             <img className="Svg" src={linkdin}  alt=""/>
         </a>

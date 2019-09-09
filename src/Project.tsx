@@ -19,11 +19,13 @@ const Project: React.FC = () =>{
           <h1 className="Name">Hayden Schultz</h1>
           <h2 className="Description">Full-Stack Web Devloper</h2>
           <Link to={'/'}>
-            <p>Home</p>
+            <p className="sideText">Home</p>
           </Link>
           <Link to={'/About'}>
-            <p>About Me</p>
+            <p className="sideText">Skills</p>
           </Link>
+          <br></br>
+            <h2 className="connect">Let's Connect:</h2>
           <a href="https://www.linkedin.com/in/hayden-schultz/" target="blank">
             <img className="Svg" src={linkdin}  alt=""/>
         </a>
@@ -36,8 +38,10 @@ const Project: React.FC = () =>{
         </div>
         <div className="ProjectLand">
           <div className="ProjectSectionOne">
+          <a href="https://warforthestars.netlify.com/" target="blank">
               <div className="ProjectOne"> 
               </div>
+              </a>
               <a href="https://warforthestars.netlify.com/" target="blank">
               <p className="projectName">War for the Stars!</p>
               </a>
