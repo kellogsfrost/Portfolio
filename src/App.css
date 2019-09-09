@@ -38,7 +38,7 @@ p{
   left: 0;
   right: 0;
   z-index: 1;
-  background: url(canada.jpg) top center no-repeat #bababa;
+  background: url(overlook.jpg) top center no-repeat #bababa;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
   color: #fff;
@@ -123,6 +123,8 @@ p{
 .SubHeadDescription{
   margin: 0;
   margin-left: 2%;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+  
 }
 .AboutMe{
   position: relative;
