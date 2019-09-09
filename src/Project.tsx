@@ -24,10 +24,15 @@ const Project: React.FC = () =>{
           <Link to={'/About'}>
             <p>About Me</p>
           </Link>
+          <a href="https://www.linkedin.com/in/hayden-schultz/" target="blank">
             <img className="Svg" src={linkdin}  alt=""/>
+        </a>
+        <a href="https://github.com/kellogsfrost" target="blank">
             <img className="Svg" src={github} alt=""/>
-            {/* <img className="Svg" src={envelope} alt=""/> */}
+            </a>
+            <a href="https://drive.google.com/file/d/1AIA8PLifT94IJHOEq4_bd8ypr9o591fc/view?usp=sharing" target="blank">
             <img className="Svg" src={file} alt=""/>
+            </a>
         </div>
         <div className="ProjectLand">
           <div className="ProjectSectionOne">

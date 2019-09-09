@@ -26,16 +26,21 @@ const Home: React.FC = () => {
         <Link to={'/Project'}>
           <p>Projects</p>
         </Link>
-          <img className="Svg" src={linkdin}  alt=""/>
-          <img className="Svg" src={github} alt=""/>
-          {/* <img className="Svg" src={envelope} alt=""/> */}
-          <img className="Svg" src={file} alt=""/>
+        <a href="https://www.linkedin.com/in/hayden-schultz/" target="blank">
+            <img className="Svg" src={linkdin}  alt=""/>
+        </a>
+        <a href="https://github.com/kellogsfrost" target="blank">
+            <img className="Svg" src={github} alt=""/>
+            </a>
+            <a href="https://drive.google.com/file/d/1AIA8PLifT94IJHOEq4_bd8ypr9o591fc/view?usp=sharing" target="blank">
+            <img className="Svg" src={file} alt=""/>
+            </a>
       </div>
       <div className="Land">
         <div className="InnerLanding">
           <div className="HomeHeading">Hi, I'm Hayden,</div>
           <div className="SubHeading">
-            <h2 className="SubHeadDescription">a freelance web developer.
+            <h2 className="SubHeadDescription">A passionate web developer who will quickly and cost-effectively solve problems and, consistently deliver a quality product.
             </h2>
           </div>
         </div>
