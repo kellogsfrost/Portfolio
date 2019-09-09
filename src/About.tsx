@@ -40,7 +40,7 @@ const About: React.FC = () =>{
         </div>
         <div className="AboutLand">
           <div className="InnerLanding">
-              <h2>Skills</h2>
+              <h2 className="AboutTitles">Skills</h2>
               <div className="Skills">
                 JavaScript
                 <br></br>
@@ -101,6 +101,11 @@ const About: React.FC = () =>{
                 <br></br>
                 Flask
               </div>
+          <div className="MethodContain">
+              <h2 className="AboutTitles">Methodologies</h2>
+              <div className="Methods">Object Oriented Programming | MVC Pattern | Test-Driven Development | Responsive Design </div>
+              <div className="Methods">Authentication (OAuth/Sesssions/Tokens) | CRUD Operations | RESTful Routing</div>
+          </div>
           </div>
         </div>
       </div>
