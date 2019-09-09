@@ -10,7 +10,7 @@ import {
 } from 'react-router-dom';
 
 
-const About: React.FC = () =>{
+const Project: React.FC = () =>{
     return(
         <div className="App" >
         <div className="SideBar">
@@ -21,20 +21,31 @@ const About: React.FC = () =>{
           <Link to={'/'}>
             <p>Home</p>
           </Link>
-          <Link to={'/Project'}>
-            <p>Projects</p>
-         </Link>
+          <Link to={'/About'}>
+            <p>About Me</p>
+          </Link>
             <img className="Svg" src={linkdin}  alt=""/>
             <img className="Svg" src={github} alt=""/>
+            {/* <img className="Svg" src={envelope} alt=""/> */}
             <img className="Svg" src={file} alt=""/>
         </div>
-        <div className="AboutLand">
-          <div className="InnerLanding">
+        <div className="ProjectLand">
+          <div className="ProjectSectionOne">
+              <div className="ProjectOne">
+              </div>
+              <div className="ProjectTwo">
+              </div>
           </div>
+          <div className="ProjectSectionTwo">
+              <div className="ProjectThree">
+              </div>
+              <div className="ProjectFour">
+              </div>
+        </div>
         </div>
       </div>
     );
 }
 
 
-export default About;
+export default Project;

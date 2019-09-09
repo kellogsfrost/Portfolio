@@ -1,5 +1,7 @@
 
-
+p{
+  color: white;
+}
 .SideBar{
   top: 0;
   bottom: 0;
@@ -21,6 +23,38 @@
   right: 0;
   z-index: 1;
   background: url(Kerry.jpg) top center no-repeat #bababa;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  padding-left: 110px;
+  padding-top: 130px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+  font-size: 12px;
+}
+.ProjectLand{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: url(canada.jpg) top center no-repeat #bababa;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  padding-left: 110px;
+  padding-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.6);
+  font-size: 12px;
+}
+.AboutLand{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: url(france.jpg) top center no-repeat #bababa;
   background-size: cover;
   -webkit-font-smoothing: antialiased;
   color: #fff;
@@ -86,4 +120,48 @@
 }
 .SubHeadDescription{
   margin: 0;
+}
+.AboutMe{
+  position: relative;
+}
+.ProjectSectionOne{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-left: 6%;
+}
+.ProjectSectionTwo{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-left: 6%;
+}
+.ProjectOne{
+  background: url(cage.jpg) center no-repeat #bababa;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  margin: 2%;
+
+}
+.ProjectTwo{
+  background: url(cage.jpg) center no-repeat #bababa;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  margin: 2%;
+}
+.ProjectThree{
+  background: url(cage.jpg) center no-repeat #bababa;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  margin: 2%;
+}
+.ProjectFour{
+  background: url(cage.jpg) center no-repeat #bababa;
+  height: 400px;
+  width: 400px;
+  display: inline-block;
+  margin: 2%;
 }
