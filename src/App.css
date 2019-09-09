@@ -142,14 +142,14 @@ p{
   margin-left: 6%;
 }
 .ProjectOne{
-  background: url(cage.jpg) center no-repeat #bababa;
-  height: 400px;
-  width: 400px;
+  background: url(ship.png) center no-repeat #bababa;
+  background-size: cover;
+  height: 430px;
+  width: 1100px;
   display: inline-block;
-  margin: 2%;
-
+  margin-left: 5%;
 }
-.ProjectTwo{
+/* .ProjectTwo{
   background: url(cage.jpg) center no-repeat #bababa;
   height: 400px;
   width: 400px;
@@ -169,7 +169,7 @@ p{
   width: 400px;
   display: inline-block;
   margin: 2%;
-}
+} */
 .Skills{
  display: inline-block;
  margin: 6%;
