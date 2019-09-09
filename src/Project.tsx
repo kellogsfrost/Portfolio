@@ -36,8 +36,11 @@ const Project: React.FC = () =>{
         </div>
         <div className="ProjectLand">
           <div className="ProjectSectionOne">
-              <div className="ProjectOne">
+              <div className="ProjectOne"> 
               </div>
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <p className="projectName">War for the Stars!</p>
+              </a>
               <div className="ProjectTwo">
               </div>
           </div>
