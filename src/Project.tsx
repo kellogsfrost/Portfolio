@@ -58,6 +58,13 @@ const Project: React.FC = () =>{
               <a href='https://morning-cliffs-94208.herokuapp.com/' target="blank">
               <p className="projectName">JobTraker</p>
               </a>
+              <a href="https://browsing-for-housing.netlify.com/" target="blank">
+              <div className="ProjectFive"> 
+              </div>
+              </a>
+              <a href="https://browsing-for-housing.netlify.com/" target="blank">
+              <p className="projectName">Browsing for Housing</p>
+              </a>
               <a href="http://localhost:3000" target="blank">
               <div className="ProjectFour"> 
               </div>

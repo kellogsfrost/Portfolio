@@ -6,7 +6,7 @@ a:hover, a:active { text-decoration: none; }
 .App{
   background: url(tree.jpg) top center  #bababa;
   background-size: cover;
-  height: 2400px;
+  height: 3200px;
 }
 p{
   color: white;
@@ -187,6 +187,14 @@ p{
   background-size: cover;
   height: 430px;
   width: 721px;
+  display: inline-block;
+  margin-left: 5%;
+} 
+.ProjectFive{
+  background: url(housing.png) center no-repeat #bababa;
+  background-size: cover;
+  height: 600px;
+  width: 1000px;
   display: inline-block;
   margin-left: 5%;
 } 
