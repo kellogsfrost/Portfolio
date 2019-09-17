@@ -44,21 +44,21 @@ const Project: React.FC = () =>{
               <a href="https://warforthestars.netlify.com/" target="blank">
               <p className="projectName">War for the Stars!</p>
               </a>
-              <a href="https://warforthestars.netlify.com/" target="blank">
+              <a href="https://desolate-dusk-17452.herokuapp.com/" target="blank">
               <div className="ProjectTwo"> 
               </div>
               </a>
-              <a href="https://warforthestars.netlify.com/" target="blank">
+              <a href="https://desolate-dusk-17452.herokuapp.com/" target="blank">
               <p className="projectName">Jam-Band</p>
               </a>
-              <a href="https://warforthestars.netlify.com/" target="blank">
+              <a href="https://morning-cliffs-94208.herokuapp.com/" target="blank">
               <div className="ProjectThree"> 
               </div>
               </a>
-              <a href="https://warforthestars.netlify.com/" target="blank">
+              <a href='https://morning-cliffs-94208.herokuapp.com/' target="blank">
               <p className="projectName">JobTraker</p>
               </a>
-              <a href="https://warforthestars.netlify.com/" target="blank">
+              <a href="http://localhost:3000" target="blank">
               <div className="ProjectFour"> 
               </div>
               </a>
