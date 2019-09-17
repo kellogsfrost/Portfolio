@@ -13,7 +13,7 @@ import {
 const Project: React.FC = () =>{
     return(
         <div className="App" >
-        <div className="SideBar">
+        <div className="ProjectSideBar">
           <div className="SideImage">
           </div>
           <h1 className="Name">Hayden Schultz</h1>
@@ -36,7 +36,6 @@ const Project: React.FC = () =>{
             <img className="Svg" src={file} alt=""/>
             </a>
         </div>
-        <div className="ProjectLand">
           <div className="ProjectSectionOne">
           <a href="https://warforthestars.netlify.com/" target="blank">
               <div className="ProjectOne"> 
@@ -45,16 +44,28 @@ const Project: React.FC = () =>{
               <a href="https://warforthestars.netlify.com/" target="blank">
               <p className="projectName">War for the Stars!</p>
               </a>
-              <div className="ProjectTwo">
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <div className="ProjectTwo"> 
               </div>
+              </a>
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <p className="projectName">Jam-Band</p>
+              </a>
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <div className="ProjectThree"> 
+              </div>
+              </a>
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <p className="projectName">JobTraker</p>
+              </a>
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <div className="ProjectFour"> 
+              </div>
+              </a>
+              <a href="https://warforthestars.netlify.com/" target="blank">
+              <p className="projectName">HairPort</p>
+              </a>
           </div>
-          <div className="ProjectSectionTwo">
-              <div className="ProjectThree">
-              </div>
-              <div className="ProjectFour">
-              </div>
-        </div>
-        </div>
       </div>
     );
 }

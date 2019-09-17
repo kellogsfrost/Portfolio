@@ -63,7 +63,7 @@ const About: React.FC = () =>{
                 <br></br>
                 HTML
                 <br></br>
-                Redux
+                Typescript
                 <br></br>
                 EJS
                 <br></br>
@@ -105,8 +105,10 @@ const About: React.FC = () =>{
               </div>
           <div className="MethodContain">
               <h2 className="AboutTitles">Methodologies</h2>
-              <div className="Methods">Object Oriented Programming | MVC Pattern | Test-Driven Development | Responsive Design </div>
-              <div className="Methods">Authentication (OAuth/Sesssions/Tokens) | CRUD Operations | RESTful Routing</div>
+              <div className="Methods">Object Oriented Programming | MVC Pattern  </div>
+              <div className="Methods">Authentication (OAuth/Sesssions/Tokens)  </div>
+              <div className="Methods">Responsive Design | RESTful Routing</div>
+              <div className="Methods">Test-Driven Development | CRUD Operations</div>
           </div>
           </div>
         </div>

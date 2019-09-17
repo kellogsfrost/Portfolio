@@ -3,6 +3,11 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:focus { text-decoration: none; }
 a:hover, a:active { text-decoration: none; }
+.App{
+  background: url(tree.jpg) top center  #bababa;
+  background-size: cover;
+  height: 2400px;
+}
 p{
   color: white;
 }
@@ -35,21 +40,27 @@ p{
   text-shadow: 1px 1px 2px rgba(0,0,0,.6);
   font-size: 12px;
 }
-.ProjectLand{
-  position: fixed;
+/* .ProjectLand{
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 1;
-  background: url(overlook.jpg) top center no-repeat #bababa;
-  background-size: cover;
-  -webkit-font-smoothing: antialiased;
-  color: #fff;
   padding-left: 110px;
   padding-top: 10px;
   text-shadow: 1px 1px 2px rgba(0,0,0,.6);
   font-size: 12px;
+} */
+.ProjectSideBar{
+  min-height:100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 25%;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(19, 66, 75, 0.8);
 }
 .AboutLand{
   position: fixed;
@@ -140,14 +151,10 @@ p{
   position: relative;
 }
 .ProjectSectionOne{
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  margin-left: 6%;
-}
-.ProjectSectionTwo{
-  display: inline-block;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 20%;
+  z-index: 2;
   text-align: center;
   margin-left: 6%;
 }
@@ -159,31 +166,34 @@ p{
   display: inline-block;
   margin-left: 5%;
 }
-/* .ProjectTwo{
-  background: url(cage.jpg) center no-repeat #bababa;
-  height: 400px;
-  width: 400px;
+ .ProjectTwo{
+  background: url(ship.png) center no-repeat #bababa;
+  background-size: cover;
+  height: 430px;
+  width: 1000px;
   display: inline-block;
-  margin: 2%;
+  margin-left: 5%;
 }
 .ProjectThree{
-  background: url(cage.jpg) center no-repeat #bababa;
-  height: 400px;
-  width: 400px;
+  background: url(ship.png) center no-repeat #bababa;
+  background-size: cover;
+  height: 430px;
+  width: 1000px;
   display: inline-block;
-  margin: 2%;
+  margin-left: 5%;
 }
 .ProjectFour{
-  background: url(cage.jpg) center no-repeat #bababa;
-  height: 400px;
-  width: 400px;
+  background: url(ship.png) center no-repeat #bababa;
+  background-size: cover;
+  height: 430px;
+  width: 1000px;
   display: inline-block;
-  margin: 2%;
-} */
+  margin-left: 5%;
+} 
 .Skills{
  display: inline-block;
- margin: 6%;
- font-size: 1em;
+ margin: 5%;
+ font-size: 20px;
  font-weight: 300;
  text-shadow: 0 0 3px rgb(23, 5, 129), 0 0 5px rgb(0, 0, 0);
 }
@@ -193,7 +203,7 @@ p{
 }
 .Methods{
   margin-left: 5%;
-  font-size: 1em;
+  font-size: 30px;
   font-weight: 300;
   text-shadow: 0 0 3px rgb(23, 5, 129), 0 0 5px rgb(0, 0, 0);
 }
