@@ -62,7 +62,7 @@ const Project: React.FC = () =>{
               <div className="ProjectFour"> 
               </div>
               </a>
-              <a href="https://warforthestars.netlify.com/" target="blank">
+              <a href="http://localhost:3000" target="blank">
               <p className="projectName">HairPort</p>
               </a>
           </div>
