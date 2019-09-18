@@ -34,7 +34,7 @@ const Home: React.FC = () => {
         <a href="https://github.com/kellogsfrost" target="blank">
             <img className="Svg" src={github} alt=""/>
             </a>
-            <a href="https://drive.google.com/file/d/1AIA8PLifT94IJHOEq4_bd8ypr9o591fc/view?usp=sharing" target="blank">
+            <a href="https://drive.google.com/file/d/1xjT9XOI_r7VLvjETdyI0Uw8S85zV7qTR/view" target="blank">
             <img className="Svg" src={file} alt=""/>
             </a>
       </div>
