@@ -44,7 +44,7 @@ const Project: React.FC = () =>{
               <a href="https://warforthestars.netlify.com/" target="blank">
               <p className="projectName">War for the Stars!</p>
               </a>
-              <a href="https://desolate-dusk-17452.herokuapp.com/" target="blank">
+              {/* <a href="https://desolate-dusk-17452.herokuapp.com/" target="blank">
               <div className="ProjectTwo"> 
               </div>
               </a>
@@ -71,7 +71,7 @@ const Project: React.FC = () =>{
               </a>
               <a href="http://localhost:3000" target="blank">
               <p className="projectName">HairPort</p>
-              </a>
+              </a> */}
           </div>
       </div>
     );
